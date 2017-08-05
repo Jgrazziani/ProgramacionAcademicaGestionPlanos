@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Programación Académica y Gestión de Planos</title>
+  </head>
+  <body>
+    <h1>Importar Programación Académica</h1>
+
+    <form method="post" action="api.ucabsistencia.com/v1/programacionacademica/carga" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Carga de Archivo (excel)</legend>
+        <label for="fileImportar">Seleccione un archivo:</label>
+        <br/>
+        <input id="fileImportar" type="file" name="uploadFile"/>
+        <br/>
+        <input type="submit" value="Cargar Archivo" />
+      </fieldset>
+    </form>
+    
+    <h1>Editar Programación Académica</h1>
+
+    <form method="post" action="api.ucabsistencia.com/v1/programacionacademica/edicion" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Carga de Archivo (excel)</legend>
+        <label for="fileEditar">Seleccione un archivo:</label>
+        <br/>
+        <input id="fileEditar" type="file" name="uploadFile"/>
+        <br/>
+        <input type="submit" value="Editar Archivo" />
+      </fieldset>
+    </form>
+    
+    <h1>Cargar Planos UCAB</h1>
+
+    <form method="post" action="api.ucabsistencia.com/v1/planos/carga" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Carga de Archivo (png)</legend>
+        <label for="filePlanos">Seleccione un archivo:</label>
+        <br/>
+        <input id="filePlanos" type="file" name="uploadFile"/>
+        <br/>
+        <input type="submit" value="Cargar Plano" />
+      </fieldset>
+    </form>
+
+  </body>
+</html>
