@@ -32,7 +32,7 @@ import org.glassfish.jersey.media.multipart.FormDataParam;
  */
 @Path("/v1")
 public class GestionPlanos {
-    public static final String FILE_SERVER_LOCATION = "C:\\Users\\el_je_000\\Documents\\NetBeansProjects\\programacion-plano\\src\\main\\webapp\\planos\\"; 
+    public static final String FILE_SERVER_LOCATION = "C:\\Users\\Oriana\\Documents\\GitHub\\WSUcabsistencia\\src\\main\\webapp\\planos\\"; 
 
     // http://localhost:8080/file-service/api/v1/upload
     @POST
